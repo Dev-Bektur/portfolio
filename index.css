@@ -70,6 +70,34 @@ h1{
     color: #4682b4;
 }
 
+.project {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.project h5 {
+    font-size: 20px;
+    color: #6b8e23;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.project h5:hover {
+    color: #4b6b1f;
+}
+
+.project p {
+    color: rgb(121, 121, 121);
+    display: none;
+    margin-top: 10px;
+    transition: all 0.5s ease-out;
+}
+
+.project:hover p {
+    display: block;
+}
+
+
 @media(max-width: 1024px){
     .leftAndRight{
         display: flex;
